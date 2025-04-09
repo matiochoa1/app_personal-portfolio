@@ -1,4 +1,6 @@
+import AboutMain from "@/components/sections/AboutMain";
 import AboutMe from "@/components/sections/AboutMe";
+import Experience from "@/components/sections/Experience";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
@@ -11,6 +13,8 @@ export default function HomePage() {
 				exit={{ opacity: 0 }}
 				transition={{ duration: 0.5 }}>
 				<AboutMe />
+				<AboutMain />
+				<Experience />
 			</motion.div>
 		</>
 	);

@@ -28,13 +28,13 @@ export default function AboutMe() {
 							<div className="mt-8 flex flex-wrap gap-4">
 								<button
 									type="button"
-									className="border border-gray-300 rounded-md lg:rounded-lg p-3 text-sm lg:text-md font-medium bg-gray-50/80 shadow-md hover:bg-gray-100/90 transition-colors">
+									className="border border-gray-300 rounded-md lg:rounded-lg p-3 text-sm lg:text-md font-medium bg-gray-50/80 shadow-md hover:bg-gray-100/90 transition-colors cursor-pointer">
 									<a href="#contact">Get in Touch</a>
 								</button>
 
 								<button
 									type="button"
-									className="border border-gray-300 rounded-md lg:rounded-lg p-3 text-sm lg:text-md font-medium bg-sky-100/80 shadow-md hover:bg-sky-150/90 transition-colors">
+									className="border border-gray-300 rounded-md lg:rounded-lg p-3 text-sm lg:text-md font-medium bg-sky-100/80 shadow-md hover:bg-sky-150/90 transition-colors cursor-pointer">
 									<a href="/resume.pdf" download className="flex items-center">
 										<Download className="mr-2 h-4 w-4" />
 										Download CV
@@ -47,10 +47,10 @@ export default function AboutMe() {
 							<div className="relative">
 								<div className="w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-slate-900/20">
 									<img
-										src="/aboutme.jpeg"
+										src="/pic.jpg"
 										alt="Image of Matias"
 										loading="lazy"
-										className="w-full h-full object-cover"
+										className="w-full h-full object-fill rounded-full shadow-lg transition-transform duration-300 transform hover:scale-105 hover:shadow-xl"
 									/>
 								</div>
 								<div className="absolute -bottom-2 -right-2 w-20 h-20 bg-sky-600/80 rounded-full flex items-center justify-center text-white font-bold">

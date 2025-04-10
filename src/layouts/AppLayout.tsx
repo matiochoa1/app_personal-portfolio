@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 import { AnimatePresence } from "framer-motion";
 import Navbar from "@/components/ui/Navbar";
+import Footer from "@/components/ui/Footer";
 
 export default function AppLayout() {
 	return (
@@ -12,6 +13,7 @@ export default function AppLayout() {
 						<Outlet />
 					</main>
 				</AnimatePresence>
+				<Footer />
 			</div>
 		</>
 	);

@@ -1,6 +1,7 @@
 import AboutMain from "@/components/sections/AboutMain";
 import AboutMe from "@/components/sections/AboutMe";
 import Experience from "@/components/sections/Experience";
+import Skills from "@/components/sections/Skills";
 import { motion } from "framer-motion";
 
 export default function HomePage() {
@@ -15,6 +16,7 @@ export default function HomePage() {
 				<AboutMe />
 				<AboutMain />
 				<Experience />
+				<Skills />
 			</motion.div>
 		</>
 	);

@@ -23,7 +23,7 @@ export default function AboutMain() {
 							viewport={{ once: true }}
 							className="relative w-full max-w-md h-96">
 							<img
-								src="pic.jpg"
+								src="dev.jpg"
 								alt="Imagen de Matias"
 								className="object-cover w-full h-full rounded-lg shadow-lg"
 							/>

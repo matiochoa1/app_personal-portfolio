@@ -21,3 +21,13 @@ export type SkillCategory = {
 	name: string;
 	key: "frontend" | "backend" | "tools" | "cloud";
 };
+
+export type Project = {
+	title: string;
+	description: string;
+	image: string;
+	tags: string[];
+	github?: string;
+	live?: string;
+	type: "personal" | "professional";
+};

@@ -159,6 +159,10 @@
 		background-color: hsl(var(--card-foreground));
 	}
 
+	.bg-muted {
+		background-color: hsl(var(--muted));
+	}
+
 	@media (min-width: 640px) {
 		.section-container {
 			padding-left: 1.5rem;

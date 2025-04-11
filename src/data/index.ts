@@ -1,5 +1,5 @@
 import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
-import { ExperienceItem, Skill, SkillCategory } from "types";
+import { ExperienceItem, Skill, SkillCategory, Project } from "types";
 
 // I'm using barrels for easier exporting and importing of types but in larger projects a barrel file can be a bad idea
 // because it can lead to circular dependencies. In this case, it's fine because the types are not dependent on each other.
@@ -97,4 +97,76 @@ export const categories: SkillCategory[] = [
 	{ name: "Backend", key: "backend" },
 	{ name: "Tools & Methodologies", key: "tools" },
 	{ name: "Cloud & DevOps", key: "cloud" },
+];
+
+export const projects: Project[] = [
+	{
+		title: "UpTask App",
+		description:
+			"Task management app with authentication and real-time updates with React, TypeScript, Node.js, and MongoDB.",
+		image: "uptask.png",
+		tags: ["React", "Node.js", "MongoDB", "TypeScript", "TailwindCSS", "MVC"],
+		github: "https://github.com/matiochoa1/app_upstack-frontend",
+		live: "https://app-uptask-frontend.vercel.app/auth/login",
+		type: "personal",
+	},
+	{
+		title: "Drink Recipe Searcher",
+		description:
+			"This is React Project for Drink Recipes Recommendations App built using Vite and TypeScript, Tailwind CSS, RESTFul API, Zustand, React Router, ZOD, Headless UI for modals and heroicons to handle notifications.",
+		image: "project-cocktail-receipe.png",
+		tags: [
+			"React",
+			"TypeScript",
+			"TailwindCSS",
+			"Zustand",
+			"Zod",
+			"Headless UI",
+		],
+		github: "https://github.com/matiochoa1/app_drinks-react-ts",
+		live: "https://drinks-recipe-searcher-m.netlify.app/",
+		type: "personal",
+	},
+	{
+		title: "Crypto Tracker",
+		description:
+			"Crypto Currency Tracker is a web application that allows users to track the prices of various cryptocurrencies in real-time. It provides a user-friendly interface to view the current prices, historical data, and market trends of different cryptocurrencies. ",
+		image: "project-crypto-searcher.png",
+		tags: ["React", "TypeScript", "TailwindCSS", "Zustand"],
+		github: "https://github.com/matiochoa1/app_crypto-react-ts",
+		live: "https://crypto-react-ts-mat.netlify.app/",
+		type: "personal",
+	},
+	{
+		title: "Ez Report API",
+		description:
+			"Ez Report API is a tool I created to automate the generation of reports for internal stakeholders via API without the need of having the technical knowledge to do it. It provided a UI where they could build the JSON structure and fill a form to generate the request. ",
+		image: "ezreport-api.jpg",
+		tags: ["Python", "Flask", "Databases", "Automation", "JavaScript"],
+		type: "professional",
+	},
+	{
+		title: "On Call Duty",
+		description:
+			"I participate in on-call duty for the AdTech team, where I am responsible for monitoring and maintaining the health of our systems. I use various tools to ensure that our systems are running smoothly and to troubleshoot any issues that arise.",
+		image: "outage.jpg",
+		tags: [
+			"On Call",
+			"Troubleshooting",
+			"Client comms",
+			"Debugging",
+			"Incident Management",
+		],
+		type: "professional",
+	},
+	{
+		title: "Expenses App",
+		description:
+			"Expenses App is a web application that allows to submit a form and keep track of expenses. You can submit your budget and see how much you have spent according to certain categories. ",
+		image: "expenses-app.png",
+		tags: ["React", "TypeScript", "TailwindCSS", "useReducer", "ContextAPI"],
+		github: "https://github.com/matiochoa1/control-de-gastos-ts-react",
+		live: "https://control-gastos-mat.netlify.app/",
+		type: "personal",
+	},
 ];

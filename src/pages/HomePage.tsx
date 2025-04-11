@@ -1,5 +1,6 @@
 import AboutMain from "@/components/sections/AboutMain";
 import AboutMe from "@/components/sections/AboutMe";
+import Contact from "@/components/sections/Contact";
 import Experience from "@/components/sections/Experience";
 import Projects from "@/components/sections/Projects";
 import Skills from "@/components/sections/Skills";
@@ -19,6 +20,7 @@ export default function HomePage() {
 				<Experience />
 				<Skills />
 				<Projects />
+				<Contact />
 			</motion.div>
 		</>
 	);

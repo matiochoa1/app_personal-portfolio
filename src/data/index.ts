@@ -9,15 +9,19 @@ export const socialLinks = [
 		icon: FaGithub,
 		href: import.meta.env.VITE_GITHUB_URL,
 		label: "Github",
+		color: "bg-[#24292e] hover:bg-[#24292e]/90",
 	},
 	{
 		icon: FaLinkedin,
 		href: import.meta.env.VITE_LINKEDIN_URL,
+		label: "LinkedIn",
+		color: "bg-[#0A66C2] hover:bg-[#0A66C2]/90",
 	},
 	{
 		icon: FaInstagram,
 		href: import.meta.env.VITE_INSTAGRAM_URL,
 		label: "Instagram",
+		color: "bg-gradient-to-r from-[#f09433] to-[#e6683c] hover:opacity-90",
 	},
 ];
 
@@ -35,14 +39,19 @@ export const experiences: ExperienceItem[] = [
 		company: "Microsoft",
 		period: "2024 - Present",
 		description:
-			"Working in the AdTech industry, maintaining and developing internal tools that enhance efficiency and drive revenue for our platforms. Participating in on-call duties and providing technical support for critical systems.",
+			" Develop automated solutions to streamline internal tasks, improving efficiency. Full Stack Development for internal tools. Service engineering and incident management. Data analysis for product improvement. Continue responsibilities from the previous role.",
 		tags: [
+			"Software Development",
 			"React",
 			"TypeScript",
 			"Azure App Service",
 			"ADO",
 			"API",
+			"Python",
+			"Flask",
 			"Databases",
+			"AdTech",
+			"Support",
 		],
 	},
 	{
@@ -50,16 +59,29 @@ export const experiences: ExperienceItem[] = [
 		company: "Microsoft",
 		period: "2023-2024",
 		description:
-			"Providing support to top tier clients on DSPs and SSPs platforms. Incident management and troubleshooting client's issues with features of our platform. Developer of internal tools.",
-		tags: ["Test"],
+			"Provided support to top-tier clients. Managed and resolved incidents efficiently. Conducted data analysis for troubleshooting and reporting. Developed front-end solutions for an internal hub. Participated in on-call rotations for larger incidents.",
+		tags: [
+			"Support",
+			"Automation",
+			"Documentation",
+			"Incident Management",
+			"Data Analysis",
+			"AdTech",
+		],
 	},
 	{
 		title: "Sr Analyst Product Support",
 		company: "Xandr",
 		period: "2021-2023",
 		description:
-			"Providing support to top tier clients on DSPs and SSPs platforms. Incident management and troubleshooting client's issues with features of our platform. Developer of internal tools.",
-		tags: ["Test"],
+			"Provided technical support to clients. Analyzed case trends to identify recurring issues. Led pilot projects for new products before production release. Troubleshot and debugged client campaigns",
+		tags: [
+			"Support",
+			"Debugging",
+			"Data Analysis",
+			"Troubleshooting",
+			"AdTech",
+		],
 	},
 ];
 
@@ -109,6 +131,30 @@ export const projects: Project[] = [
 		github: "https://github.com/matiochoa1/app_upstack-frontend",
 		live: "https://app-uptask-frontend.vercel.app/auth/login",
 		type: "personal",
+	},
+	{
+		title: "Automation Platform",
+		description:
+			"Frontend Dev Lead and Full Stack Developer for an internal automation platform. With more than 35 tools to automate tasks and improve efficiency. ",
+		image: "automation-platform.jpg",
+		tags: [
+			"React",
+			"Typescript",
+			"TailwindCSS",
+			"Automation",
+			"Python",
+			"API",
+			"Agile",
+			"ADO",
+			"CI/CD",
+			"Azure",
+			"DevOps",
+			"MySQL",
+			"Log Level Data",
+			"Data Analysis",
+			"Documentation",
+		],
+		type: "professional",
 	},
 	{
 		title: "Drink Recipe Searcher",

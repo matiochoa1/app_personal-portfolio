@@ -31,17 +31,17 @@ export default function Projects() {
 						<TabsList className="grid w-full max-w-md grid-cols-3 gap-2 mx-auto">
 							<TabsTrigger
 								value="all"
-								className="p-2 rounded-full bg-secondary hover:bg-sky-100 transition-colors cursor-pointer data-[state=active]:bg-sky-100 data-[state=active]:font-semibold ">
+								className="text-secondary-foreground p-2 rounded-full bg-secondary hover:bg-sky-300 transition-colors cursor-pointer data-[state=active]:bg-sky-300 data-[state=active]:font-semibold ">
 								All Projects
 							</TabsTrigger>
 							<TabsTrigger
 								value="personal"
-								className="p-2 rounded-full bg-secondary hover:bg-sky-100 transition-colors cursor-pointer data-[state=active]:bg-sky-100 data-[state=active]:font-semibold">
+								className=" text-secondary-foreground p-2 rounded-full bg-secondary hover:bg-sky-300 transition-colors cursor-pointer data-[state=active]:bg-sky-300 data-[state=active]:font-semibold">
 								Personal
 							</TabsTrigger>
 							<TabsTrigger
 								value="professional"
-								className="p-2 rounded-full bg-secondary hover:bg-sky-100 transition-colors cursor-pointer data-[state=active]:bg-sky-100 data-[state=active]:font-semibold ">
+								className=" text-secondary-foreground p-2 rounded-full bg-secondary hover:bg-sky-300 transition-colors cursor-pointer data-[state=active]:bg-sky-300 data-[state=active]:font-semibold ">
 								Professional
 							</TabsTrigger>
 						</TabsList>

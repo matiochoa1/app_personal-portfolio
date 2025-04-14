@@ -157,6 +157,16 @@ export const projects: Project[] = [
 		type: "professional",
 	},
 	{
+		title: "Take Away App",
+		description:
+			"This is a Next.js project built with the App Router and Prisma, designed to manage a kiosk system. It includes features such as product management, order handling, and dynamic UI components.",
+		image: "quiosco-app.png",
+		tags: ["React", "Next.js", "Prisma", "TypeScript", "TailwindCSS", "ORM"],
+		github: "https://github.com/matiochoa1/app_quiosco-nextjs",
+		live: "https://app-quiosco-nextjs.vercel.app/",
+		type: "personal",
+	},
+	{
 		title: "Drink Recipe Searcher",
 		description:
 			"This is React Project for Drink Recipes Recommendations App built using Vite and TypeScript, Tailwind CSS, RESTFul API, Zustand, React Router, ZOD, Headless UI for modals and heroicons to handle notifications.",
